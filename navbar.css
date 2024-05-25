@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+header{
+    color: white;
+    padding: 10px;
+    width: 100%;    
+    font-family: "Lora", serif;
+    box-shadow: 10px 10px 15px rgb(49, 49, 49);
+    background-image: linear-gradient(5deg, rgb(146, 19, 19), black, rgb(8, 8, 8), rgb(20, 20, 20),  rgb(233, 212, 97))
+}
+
+.containerheader{
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.imgheader{
+    position: relative; 
+    width: 8%;
+       
+}
+
+.nomeheader{
+    
+    width: 50%;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:50px;
+    position:relative;
+
+   
+}
+.nomeheader a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.contactus{
+    text-align: center;
+    width: 15%;
+    font-size: 30px ;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+    
+}
+.contactus a{
+    text-decoration: none;
+    color: white;
+
+}
+
+   
+
+
+
+.navbar{
+    text-align: center;
+    width: 30%;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    cursor: pointer;
+    
+    
+    
+    
+    
+}
+.dropdown a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    transition:  300ms;
+    
+}
+.dropdown{
+    width: 30%;
+    text-align: center;
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+   
+    transition: all 10s;
+    border-radius: 5px;
+
+
+}
+.navbar:hover .dropdown{
+    display: flex;
+    gap: 10px;
+}
+.dropdown a:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #7c6b34;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    
+
+}
+
+.imgheader img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.imgheader img::after{
+    background-image: rgba(0, 100, 0, 0.5);
+}
