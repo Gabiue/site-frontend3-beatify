@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.25">
     <title>Beatify</title>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="carousel.css">
+    <script src="java.js"></script>
   
     
     
@@ -24,37 +27,65 @@
                     <li><a href="artistas/TravisScott.html">Travis Scott</a></li>
                     <li><a href="artistas/KanyeWest.html">Kanye West</a></li>
                     <li><a href="artistas/Yeat.html">Yeat</a></li>
+                    
   
                 </ul>
-
-
-
-
             </div>
             <div class="contactus"><a href="aboutus.html" >Sobre Nós</a> </div> 
-            
+         
         </div>
     </header> 
 
-    <div class="slide1">
-        <img src="assets/kendrick and drake no backgroudn2.png" alt="" srcset="">
-
-        <div class="textdiss">
-            <H1>KENDRICK vs DRAKE
-            
-            </H1>
-            <p>Na última semana, o mundo do hip-hop foi abalado por uma das mais intensas trocas de farpas musicais dos últimos tempos. Drake e Kendrick Lamar, dois dos maiores nomes da indústria, reacenderam uma rivalidade que há anos vem capturando a atenção de fãs e críticos.</p>
+    <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="content">
+                    <div class="texto">
+                        <h1>ASSUNTO DO MOMENTO</h1>
+                        <h3>DRAKE VS KENDRICK LAMAR</h3><br>
+                        <p>Na última semana, o mundo do hip-hop foi abalado por uma das mais intensas trocas de farpas musicais dos últimos tempos. Drake e Kendrick Lamar, dois dos maiores nomes da indústria, reacenderam uma rivalidade que há anos vem capturando a atenção de fãs e críticos.</p><br><br>
+                    </div>
+                    <img src="assets/kendrick and drake no backgroudn2.png" alt="Slide 1" style="width: 600px">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="content">
+                    <div class="texto">
+                        <h3>FARPAS DO DRAKE</h3>
+                        <p>Tudo começou com o lançamento da faixa "Shots Fired" de Drake, onde o rapper canadense deixou implícitas várias referências que pareciam direcionadas a Kendrick. Em versos afiados, Drake criticou a autenticidade e a relevância de alguns colegas de profissão, usando metáforas que muitos interpretaram como indiretas a Lamar.
+                            Kendrick Lamar, conhecido por não fugir de uma boa batalha lírica, respondeu rapidamente com "The Throne", uma música que não só rebateu as acusações de Drake, mas também questionou sua originalidade e profundidade artística. Lamar não economizou nas palavras, citando diretamente versos de Drake e apontando supostas contradições em suas letras.</p><br><br>
+                    </div>
+                    <img src="assets/Drake-removebg-preview.png" alt="Slide 2" style="width: 400px">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="content">
+                    <div class="texto">
+                        <h3>KENDRICK RETRUCA</h3>
+                        <p>Em "Not Like Us", Kendrick Lamar critica diretamente a ética de trabalho e a originalidade de Drake, aludindo às acusações de uso de ghostwriters. Kendrick reafirma sua própria posição no hip-hop, destacando seus prêmios, influência cultural e habilidade narrativa, posicionando-se como o verdadeiro "rei" do rap. A resposta de Kendrick foi amplamente aclamada pelos fãs e viralizou nas redes sociais, sendo elogiada por sua habilidade de elevar a competição mantendo o foco na arte.</p>
+                    </div>
+                    <img src="assets/kendrick lamar.png" alt="Slide 3" style="width: 400px">
+                </div>
+            </div>
         </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
     </div>
-    
 
-    
-
+ 
 
 
 
+
+
+
+
+
+
+
+   
 
     <script src="java.js"></script>
     
 </body>
-</html>                                                                                                                             
+</html>                      
